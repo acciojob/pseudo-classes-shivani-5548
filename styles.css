@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+:root{
+	background: skyblue;
+	font-family: sans-serif;
+}
+p:first-child{
+	background-color: black;
+	color:white;
+}
+p:last-child{
+	color:red;
+}
+li:first-child{
+	background:white;
+	width:50%;
+	padding:5px;
+}
+li:first-child{
+	background:white;
+	width:50%;
+	padding:5px;
+}
+li:nth-child(2){
+	background:slategray;
+	width:50%;
+	padding:5px;
+}
+li:nth-child(3){
+	background:pink;
+	width:50%;
+	padding:5px;
+}
+li:nth-child(4){
+	background:slategray;
+	width:50%;
+	padding:5px;
+}
+li:last-child{
+	background:white;
+	width:50%;
+	padding:5px;
+}
